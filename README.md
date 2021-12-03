@@ -23,15 +23,14 @@ Copies the text to clipboard.
 
 Original: `יקךךם` &rarr; Fixed: `hello`
 
-
 ## Keyboard Shortcuts
 
-### Hebrew <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>H</kbd>
+### Hebrew <kbd>⌘ cmd</kbd>+<kbd>⇧ shift</kbd>+<kbd>H</kbd>
 
-Use <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>H</kbd> to switch **English &rarr; Hebrew** in place.
+Use shortcut anywhere to switch **English &rarr; Hebrew** in place.
 Immediately replaces the selected text with the translation.
 
-### English <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>E</kbd>
+### English <kbd>⌘ cmd</kbd>+<kbd>⇧ shift</kbd>+<kbd>E</kbd>
 
-Use <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>E</kbd> to switch **Hebrew &rarr; English** in place.
+Use shortcut anywhere to switch **Hebrew &rarr; English** in place.
 Immediately replaces the selected text with the translation.
