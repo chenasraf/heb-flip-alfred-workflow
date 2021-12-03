@@ -1,6 +1,6 @@
 # heb-flip-alfred-workflow
 
-Realized you were typing in the wrong language all along? Flips your Hebrew/English texts around 
+Realized you were typing in the wrong language all along? Flips your Hebrew/English texts around
 using Alfred 4 workflows.
 
 ## Alfred Commands
@@ -12,7 +12,7 @@ Copies the text to clipboard.
 
 #### English &rarr; Hebrew Example
 
-`akuo` &rarr; `שלום`
+Original: `akuo` &rarr; Fixed: `שלום`
 
 ### eng
 
@@ -21,7 +21,7 @@ Copies the text to clipboard.
 
 #### Hebrew &rarr; English Example
 
-`יקךךם` &rarr; `hello`
+Original: `יקךךם` &rarr; Fixed: `hello`
 
 
 ## Keyboard Shortcuts
