@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import json
 import re
 # -*- coding: utf-8 -*-
@@ -37,10 +37,12 @@ def make_res_item(lang, res):
         "title": f"Flipped '{res}' to {lang_names[lang]}",
         "subtitle": f"Copy '{res}' to clipboard",
         "arg": [res],
-        "icon": { "path": lang_icons[lang] },
+        "icon": {"path": lang_icons[lang]},
         "copy": res,
     }
 
+
+all_langs = lang_maps.keys()
 
 out = {"items": []}
 
@@ -48,8 +50,7 @@ if lang != "":
     out['items'] = [make_res_item(lang, run(lang, query))]
 else:
     out['items'] = [
-        make_res_item("eng", run("eng", query)),
-        make_res_item("heb", run("heb", query)),
+        make_res_item(l, run(l, query)) for l in all_langs
     ]
 
 if re.match(r'[a-z]', query):
